@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "3efe8196-3909-339a-b33d-40c159e5bd71",
+    "name": "FortTech",
+    "created": "2024-07-22 17:14:37 +0000",
+    "source": "sea133",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

@@ -1,0 +1,11 @@
+# SuperVanish v6.2.12 - Data file
+InvisiblePlayers:
+- 98fa27d5-c8dd-3e4e-99bc-fdcaf7212838
+- 8b3368bb-10a1-387b-b0d4-1efe9d6f0fd9
+PlayerData:
+  8b3368bb-10a1-387b-b0d4-1efe9d6f0fd9:
+    information:
+      name: Dragon_Eclipse
+  98fa27d5-c8dd-3e4e-99bc-fdcaf7212838:
+    information:
+      name: DiamondC

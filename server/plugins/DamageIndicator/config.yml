@@ -1,0 +1,10 @@
+lifetime: 20
+enabled:
+  players: 'true'
+  monsters: 'true'
+  animals: 'true'
+allDamage: 'true'
+hologram:
+- '&4-%damage%'
+- '&a%health%&f/&c%max%'
+- '&b%cause%'
