@@ -1,0 +1,21 @@
+prefix: "&fPlayer&9Portals+"
+
+# Will portal items have their ID shown:
+show-id: true
+
+# Whether will the plugin use internal nether portal generation or not, this is required to prevent nether portals linking to player portals
+# The plugin will still work if you disable this but when you destroy nether portal, it will link to the player portal if there is no nether portal
+# You can disable this in case you use another plugin that modifies how vanilla nether portals are linking or generating.
+structure-generator: true
+
+tp-particles:
+  # Teleportation particle used by hopper portals.
+  # To change you must put value from - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  hopper: SPELL_WITCH
+
+# Notifies console when portal breaks e.g. - by explosion or physics.
+notify-break: true
+
+
+# ----
+# © Copyright 2019-2024 Strom-software

@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1723486509167
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723486636512
+  login: 1723485583305
+money: '0'
+last-account-name: 3Dragon_Eclipse
+logoutlocation:
+  world: 9b9f9967-06bc-48e1-a4cc-15e94ed9c7c2
+  world-name: world
+  x: -168.0852579127272
+  y: 169.7465325047994
+  z: 253.5913854858735
+  yaw: 170.10003662109375
+  pitch: 22.350006103515625
+lastlocation:
+  world: 9b9f9967-06bc-48e1-a4cc-15e94ed9c7c2
+  world-name: world
+  x: -138.0034942918091
+  y: 74.74028571114147
+  z: 264.5840348567622
+  yaw: 42.255035400390625
+  pitch: 26.9999942779541
+nickname: Owner

@@ -1,0 +1,45 @@
+#
+#  ______  _____ ______                     
+# |  ____|/ ____|  ____|                    
+# | |__  | (___ | |__ _ __ ___  ___ _______ 
+# |  __|  \___ \|  __| '__/ _ \/ _ \_  / _ \
+# | |____ ____) | |  | | |  __/  __// /  __/
+# |______|_____/|_|  |_|  \___|\___/___\___|
+#                                           
+#                                           
+
+messages:
+  prefix: "&8>"
+  staff:
+    successful-freeze: "&aSuccessfully froze &a&l%player%"
+    unfroze: "&aSuccessfully unfroze &a&l%player%"
+    exempt-player: "&4Whoops..&f &7You may not freeze this player as they are exempt to this."
+    offline-player: "&4Whoops..&f &7That player couldn't be found.."
+  player:
+    no-permission: "&cYou do not have permission to execute this command."
+    frozen-warning: "&7You have been frozen by &e&o%staff%&7"
+    warning: "&7You're not able to do this as you've been frozen. Please join TS at: ts.YOURSERVER.com!"
+    unfrozen-warning: "&7You have been unfrozen by &e&o%staff%"
+    auto-ban-reason: "Failing to SS"
+    auto-ban-leave-reason: "&cDisconnecting whilst frozen."
+    
+settings:
+  #Set this to be true to auto-ban.
+  auto-ban: true
+  #Set this to be 'true' to auto-update the plugin, will put the file into a separate file & will not be loaded until moved.
+  auto-update: true
+  #Should we auto-ban the player when they leave?
+  auto-ban-on-leave: true
+  #Remove player from the list when adding all players /freeze * (will also remove exempted players)
+  remove-player: true
+
+timers:
+  #In seconds the time until auto-ban (if auto-ban option is true)
+  time-until-autoban: 180
+  
+exemptions:
+  - "xbp"
+  - "PUTYOURNAMEHERE"
+
+system:
+  config: "0.8"

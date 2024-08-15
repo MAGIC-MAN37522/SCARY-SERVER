@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "4fbaec9d-6cdc-3a5c-b2b8-6517c30768b3",
+    "name": "Dragon_Knight",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f6794b3d-a2af-3e7e-85d9-528d0ca236e2",
+    "name": "3Dragon_Eclipse",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,18 @@
+help:
+  - '%prefix% &8| &6All commands: '
+  - '&8(^Permission: playerportals.command.help)'
+  - '&8- &f/pp give [player] [frame or hopper]   &7Give portal item to player.'
+  - '&8(^Permission: playerportals.command.give)'
+  - '&8- &f/pp setname [name] &7Set name for portal in hand.'
+  - '&8(^Permission: playerportals.command.setname)'
+  - '&8- &f/pp setheight [1 or 2] &7Set height for portal in hand.'
+  - '&8(^Permission: playerportals.command.setheight)'
+
+invalid_height: "&cHeight can only be set on 1 or 2."
+invalid_item: "&cYou can not set height for hopper portals."
+new_height: "&6New portal height: &f"
+new_portal_name: "&6New portal name: &f"
+
+reload_success: "&6Configuration reloaded successfully."
+no-permission: "&cNo permissions."
+invalid-command: "&cInvalid command."

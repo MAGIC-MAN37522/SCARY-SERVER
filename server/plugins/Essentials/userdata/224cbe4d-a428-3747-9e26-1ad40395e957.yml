@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723485178860
+  login: 1723485106638
+money: '0'
+last-account-name: Dragon_Knight23
+logoutlocation:
+  world: 9b9f9967-06bc-48e1-a4cc-15e94ed9c7c2
+  world-name: world
+  x: -178.48228881216474
+  y: 160.0
+  z: 240.89010138025216
+  yaw: -154.800048828125
+  pitch: 53.999996185302734

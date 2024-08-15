@@ -1,0 +1,9 @@
+# MoleCraft
+# Plugin by Neonn_Bukkit
+MySQL:
+  Host: 127.0.0.1
+  Port: '3306'
+  Database: Database
+  Username: Username
+  Password: Potato
+  SSL: 'true'

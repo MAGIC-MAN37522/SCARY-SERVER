@@ -1,0 +1,16 @@
+# MoleCraft
+# Plugin by Neonn_Bukkit
+Setup: '1'
+Teams: '2'
+PlayersPerTeam: '4'
+PlayersToStart: '2'
+Lobby: 'false'
+Hologram: 'false'
+Spectator: 'false'
+Settings:
+  AutoLapis: 'true'
+  AutoTNT: 'true'
+  Actionbar: 'true'
+  Tablist: 'true'
+  PvPCooldown: 'true'
+  SpecGamemode: ADVENTURE

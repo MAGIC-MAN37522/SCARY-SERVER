@@ -1,0 +1,72 @@
+# MoleCraft
+# Plugin by Neonn_Bukkit
+BackToLobby: Lobby
+Map:
+  Name: Standard
+  Builder: Potato
+Teams:
+  Blue: Blue
+  Red: Red
+  Green: Green
+  Yellow: Yellow
+  Orange: Orange
+  Black: Black
+  Pink: Pink
+  Purple: Purple
+Achievement:
+  FirstBlood:
+    Name: First Blood
+  FirstDeath:
+    Name: First Death
+  QuickGame:
+    Name: Quick game
+  ThatWasClose:
+    Name: That was close
+  BestMan:
+    Name: Best man
+Event:
+  Timer:
+    New: '30'
+    Start: '30'
+  Light:
+    Title: '&aLight!'
+    Duration: '20'
+  BonAppetit:
+    Title: '&aBon Appetit!'
+    Duration: '10'
+    Power: '4'
+  HalfLife:
+    Title: '&aHalf-Life'
+  BonusChest:
+    Title: '&aBonus Chest'
+  InventoryDrop:
+    Title: '&aInventory drop'
+  FullLife:
+    Title: '&aFull Life'
+  Poison:
+    Title: '&aWarning poison!'
+    Duration: '10'
+    Power: '1'
+  Explosion:
+    Title: '&aExplosion!'
+  HalfHeart:
+    Title: '&aHalf Heart'
+  Speed:
+    Title: '&aSpeed'
+    Duration: '30'
+    Power: '2'
+  Freeze:
+    Title: '&aFreeze'
+    Duration: '11'
+    Power: '255'
+  Supershovel:
+    Title: '&aSuper shovel'
+    Duration: '10'
+  RegenerationEarth:
+    Title: '&aRegeneration earth'
+    Duration: '10'
+  Switch:
+    Title: '&aSwitch'
+  ExperienceEarth:
+    Title: '&aExperience earth'
+    Duration: '10'

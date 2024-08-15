@@ -1,0 +1,108 @@
+# MoleCraft
+# Plugin by Neonn_Bukkit
+# Available Placeholders: %ae%, %oe%, %ue%, %x%, %aright%, %aleft%, %<3%
+# Explanation of how to configure the Chest Loot: <ITEMNAME>:<ItemType>, <Amount>, <Chance>
+Teleporter:
+  Title: '&8Teleporter'
+Achievements:
+  Title: '&8Achievements'
+  Locked:
+    Item: GRAY_DYE
+    ItemType: '8'
+  Unlocked:
+    Item: LIME_DYE
+    ItemType: '10'
+  FirstBlood:
+    ItemSlot: '2'
+    Locked:
+      ItemName: '&cFirst Blood'
+      Lore: '&7? ? ?'
+    Unlocked:
+      ItemName: '&aFirst Blood'
+      Lore: '&7Be the first one to kill an//&7opponent in a game.'
+  FirstDeath:
+    ItemSlot: '3'
+    Locked:
+      ItemName: '&cFirst Death'
+      Lore: '&7? ? ?'
+    Unlocked:
+      ItemName: '&aFirst Death'
+      Lore: '&7Be the first one to die in a game.'
+  QuickGame:
+    ItemSlot: '4'
+    Locked:
+      ItemName: '&cQuick game'
+      Lore: '&7? ? ?'
+    Unlocked:
+      ItemName: '&aQuick game'
+      Lore: '&7Win a game within 5 minutes.'
+  ThatWasClose:
+    ItemSlot: '5'
+    Locked:
+      ItemName: '&cThat was close'
+      Lore: '&7? ? ?'
+    Unlocked:
+      ItemName: '&aThat was close'
+      Lore: '&7Win a fight with half a heart.'
+  BestMan:
+    ItemSlot: '6'
+    Locked:
+      ItemName: '&cBest man'
+      Lore: '&7? ? ?'
+    Unlocked:
+      ItemName: '&aBest man'
+      Lore: '&7Win a MoleCraft game.'
+TeamSelector:
+  Title: '&8Select a team'
+  ItemName: '%teamcolor%Team %team%'
+  Lore:
+    TakenTeam: '&7%aright% %teamcolor%%player%'
+    FreeTeam: '&7%aright% &8-'
+  Teams:
+    '2':
+      Blue:
+        ItemSlot: '2'
+      Red:
+        ItemSlot: '6'
+    '4':
+      Blue:
+        ItemSlot: '1'
+      Red:
+        ItemSlot: '2'
+      Green:
+        ItemSlot: '6'
+      Yellow:
+        ItemSlot: '7'
+    '8':
+      Blue:
+        ItemSlot: '0'
+      Red:
+        ItemSlot: '1'
+      Green:
+        ItemSlot: '2'
+      Yellow:
+        ItemSlot: '3'
+      Orange:
+        ItemSlot: '5'
+      Black:
+        ItemSlot: '6'
+      Pink:
+        ItemSlot: '7'
+      Purple:
+        ItemSlot: '8'
+Chest:
+  Title: '&8Loot chest'
+  Loot:
+  - BREAD:0, 3, 12
+  - BOW:0, 1, 4
+  - CHAINMAIL_LEGGINGS:0, 1, 3
+  - CHAINMAIL_BOOTS:0, 1, 3
+  - MILK_BUCKET:0, 1, 5
+  - IRON_HELMET:0, 1, 3
+  - IRON_BOOTS:0, 1, 3
+  - TNT:0, 2, 2
+  - IRON_SWORD:0, 1, 4
+  - LADDER:0, 6, 7
+  - ARROW:0, 5, 4
+  - POTION:8230, 1, 2
+  - GOLDEN_APPLE:0, 1, 2

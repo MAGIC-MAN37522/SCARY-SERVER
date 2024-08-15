@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1723481141222
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723489475706
+  login: 1723485262811
+money: '0'
+last-account-name: Dragon_Knight
+lastlocation:
+  world: 9b9f9967-06bc-48e1-a4cc-15e94ed9c7c2
+  world-name: world
+  x: -177.5
+  y: 154.0
+  z: 238.5
+  yaw: -184.95004272460938
+  pitch: -3.0000061988830566
+logoutlocation:
+  world: 9b9f9967-06bc-48e1-a4cc-15e94ed9c7c2
+  world-name: world
+  x: -167.37444216444382
+  y: 160.0
+  z: 246.29104743894428
+  yaw: -134.25001525878906
+  pitch: 20.550010681152344

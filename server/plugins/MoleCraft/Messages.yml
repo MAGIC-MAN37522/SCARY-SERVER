@@ -1,0 +1,138 @@
+# MoleCraft
+# Plugin by Neonn_Bukkit
+# Available Placeholders: %ae%, %oe%, %ue%, %x%, %aright%, %aleft%, %<3%
+Prefix: '&f[&aMoleCraft&f]'
+NoPermission: '&cYou do not have permission to execute that command!'
+GameAlreadyStarted: '&cThe game has already started.'
+GameNotStarted: '&cThe game has not started yet.'
+DirtCleared: '&7The earth has been emptied from your inventory.'
+Kill: '%player% &7was killed by %killer% &8[&c%health%&c%<3%&8]'
+Death: '%player% &7died.'
+RemainingPlayers: '&e%alive% &7remaining players'
+TeamEliminated: '&7Team %team% &7has been &4eliminated&7!'
+TeamWin: '&7Team %team% &awon &7MoleCraft!'
+PlayerJoin: '&7%aright% &r%player% &7joined the game'
+PlayerQuit: '&7%aleft% &r%player% &7left the game'
+PlayerQuitInGame: '&7%aleft% %player% &7has left the MoleCraft round!'
+NoJoinPossible: '&cThe server will be restarted, it is currently not possible to enter.'
+TeamJoined: '&7You are now in team %team%&7!'
+TeamAlreadyJoined: '&cYou are already in this team!'
+TeamFull: '&cThe team is already full.'
+MovedInTeam: '&7You have been moved to the %team% &7team.'
+AchievementUnlocked: '&6&kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa//&7You achieved the achievement
+  &e%achievement%&7!//&6&kaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+VIPKick:
+  Server:
+    Full: '&cThe server is full. With VIP you can always join.'
+    FullVIP: '&cThis server is completely full, every player has a VIP rank.'
+  KickedByVIP: '&cYou were returned to the lobby to make space for a VIP or staff
+    member.'
+BuildMode:
+  'On': '&7You are now in the Build Mode.'
+  'Off': '&7You are no longer in the Build Mode.'
+Countdown:
+  Lobby: '&7The game starts in &e%countdown% &7seconds.'
+  Restart: '&cThe server restarts in &e%countdown% &cseconds.'
+Chat:
+  LobbyRestart: '%player%&7: &r%message%'
+  Team: '%player%&7: &r%message%'
+  Global: '&8[&7Global&8] %player%&7: &r%message%'
+  Spectator: '&7[&4✖&7] &8%player%&7: &r%message%'
+Stats:
+  Lines: '&7-= &6%player%''s &estatistics &7=-//&7K/D&8: &e%kd%//&7Kills&8: &e%kills%//&7Deaths&8:
+    &e%deaths%//&7Games played&8: &e%gamesplayed%//&7Games won&8: &e%gameswon%//&7Ranking&8:
+    &e%ranking%//&7---------------------'
+  NotFound: '&cThis player could not be found.'
+  NotOnline: '&cThis player is not online.'
+  PleaseUse: '&cPlease use /Stats [Name]'
+Hologram:
+  Line:
+    '1': '&7Statistics from &6%player%'
+    '2': '&7K/D&8: &e%kd%'
+    '3': '&7Kills&8: &e%kills%'
+    '4': '&7Deaths&8: &e%deaths%'
+    '5': '&7Games played&8: &e%gamesplayed%'
+    '6': '&7Games won&8: &e%gameswon%'
+    '7': '&7Ranking&8: &e%ranking%'
+Tablist:
+  Header: '&aMoleCraft//&6Available on &eSpigotMC and MC-Market&6!'
+  Footer: '&7Thank you for play on this server &e%player%&7.'
+Motd:
+  Lobby: LOBBY
+  Full: FULL
+  InGame: INGAME
+  Restart: RESTART
+Actionbar:
+  Event: '&f-= Event for %seconds% seconds =-'
+  Spectator: '&7Spectator'
+  InTeam: '&fTeam %team%'
+  SelectTeam: '&fSelect your team'
+Title:
+  Present:
+    '1': '&aMoleCraft'
+    '2': '&f%map% by %builder%'
+  Introducing:
+    '1': '&aMoleCraft'
+    '2': '&fDig up to your enemies!'
+  DirtCommand:
+    '1': '&a/Dirt'
+    '2': '&fTo clear earth from inventory'
+  TeamWin:
+    '1': '&7Team %team%'
+    '2': '&awon &7MoleCraft!'
+  Warmup: '&c%seconds%'
+Scoreboard:
+  Lobby:
+    Title: '&f&lMoleCraft'
+    Line:
+      '15': NOTHING
+      '14': NOTHING
+      '13': NOTHING
+      '12': NOTHING
+      '11': NOTHING
+      '10': NOTHING
+      '9': NOTHING
+      '8': NOTHING
+      '7': NOTHING
+      '6': '&1'
+      '5': '&fMap&8:'
+      '4': '&e%map%'
+      '3': '&2'
+      '2': '&fPlayers&8:'
+      '1': '&e%teams% &7x &e%playersperteam%'
+  InGame:
+    Title: '&f&lMoleCraft'
+    Line:
+      '15': NOTHING
+      '14': NOTHING
+      '13': NOTHING
+      '12': NOTHING
+      '11': NOTHING
+      '10': NOTHING
+      '9': '&1'
+      '8': '&fMap&8:'
+      '7': '&e%map%'
+      '6': '&2'
+      '5': '&fKills&8:'
+      '4': '&c%kills%'
+      '3': '&3'
+      '2': '&fPlayers&8:'
+      '1': '&b%alive%'
+  Spectator:
+    Title: '&f&lMoleCraft'
+    Line:
+      '15': NOTHING
+      '14': NOTHING
+      '13': NOTHING
+      '12': NOTHING
+      '11': NOTHING
+      '10': NOTHING
+      '9': NOTHING
+      '8': NOTHING
+      '7': NOTHING
+      '6': '&1'
+      '5': '&fMap&8:'
+      '4': '&e%map%'
+      '3': '&2'
+      '2': '&fPlayers&8:'
+      '1': '&e%alive%'

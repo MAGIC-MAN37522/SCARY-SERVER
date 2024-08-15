@@ -1,0 +1,151 @@
+# MoleCraft
+# Plugin by Neonn_Bukkit
+# Available Placeholders: %ae%, %oe%, %ue%, %x%, %aright%, %aleft%, %<3%
+# To deactivate an item, write NOTHING as the item.
+Items:
+  Join:
+    TeamSelector:
+      ItemName: '&eTeam Selector &7(Right click)'
+      Item: RED_BED
+      ItemType: '0'
+      ItemSlot: '1'
+    StartGame:
+      ItemName: '&aStart game &7(Right click)'
+      Item: EMERALD
+      ItemType: '0'
+      ItemSlot: '7'
+  Spectator:
+    Teleporter:
+      ItemName: '&5Teleporter &7(Right click)'
+      Item: COMPASS
+      ItemType: '0'
+      ItemSlot: '4'
+  Achievements:
+    ItemName: '&bAchievements &7(Right click)'
+    Item: NETHER_STAR
+    ItemType: '0'
+    ItemSlot: '0'
+  Leave:
+    ItemName: '&cLeave game &7(Right click)'
+    Item: SLIME_BALL
+    ItemType: '0'
+    ItemSlot: '8'
+  Equipment:
+    '1':
+      ItemName: '&rWooden Sword'
+      Item: WOODEN_SWORD
+      ItemType: '0'
+      ItemSlot: '0'
+      Amount: '1'
+      Enchant:
+        Damage: '1'
+        DigSpeed: '0'
+        Durability: '0'
+    '2':
+      ItemName: '&rIron Shovel'
+      Item: IRON_SHOVEL
+      ItemType: '0'
+      ItemSlot: '1'
+      Amount: '1'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '3'
+        Durability: '10'
+    '3':
+      ItemName: '&rTorch'
+      Item: TORCH
+      ItemType: '0'
+      ItemSlot: '2'
+      Amount: '10'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+    '4':
+      ItemName: '&r'
+      Item: NOTHING
+      ItemType: '0'
+      ItemSlot: '3'
+      Amount: '1'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+    '5':
+      ItemName: '&r'
+      Item: NOTHING
+      ItemType: '0'
+      ItemSlot: '4'
+      Amount: '1'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+    '6':
+      ItemName: '&r'
+      Item: NOTHING
+      ItemType: '0'
+      ItemSlot: '5'
+      Amount: '1'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+    '7':
+      ItemName: '&r'
+      Item: NOTHING
+      ItemType: '0'
+      ItemSlot: '6'
+      Amount: '1'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+    '8':
+      ItemName: '&rNight Vision'
+      Item: POTION
+      ItemType: '8230'
+      ItemSlot: '7'
+      Amount: '1'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+    '9':
+      ItemName: '&rBread'
+      Item: BREAD
+      ItemType: '0'
+      ItemSlot: '8'
+      Amount: '4'
+      Enchant:
+        Damage: '0'
+        DigSpeed: '0'
+        Durability: '0'
+  Helmet:
+    ItemName: '&rHelmet'
+    Item: LEATHER_HELMET
+    Enchant:
+      Protection: '0'
+      ProtectionProjectile: '0'
+      Durability: '0'
+  Chestplate:
+    ItemName: '&rChestplate'
+    Item: LEATHER_CHESTPLATE
+    Enchant:
+      Protection: '0'
+      ProtectionProjectile: '0'
+      Durability: '0'
+  Leggings:
+    ItemName: '&rLeggings'
+    Item: LEATHER_LEGGINGS
+    Enchant:
+      Protection: '0'
+      ProtectionProjectile: '0'
+      Durability: '0'
+  Boots:
+    ItemName: '&rBoots'
+    Item: LEATHER_BOOTS
+    Enchant:
+      Protection: '0'
+      ProtectionProjectile: '0'
+      Durability: '0'
